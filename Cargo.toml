@@ -12,7 +12,9 @@ members = [
 ]
 
 [workspace.package]
-version = "151.1.0+151.1.0-HEAD.3586"
+# Tauri requires the Rust binding release 151.8.1. Build metadata selects
+# the extension-enabled native SDK, including the soft navigation crash fix.
+version = "151.8.1+151.1.0-HEAD.3586"
 edition = "2021"
 license = "Apache-2.0 OR MIT"
 authors = [
@@ -24,7 +26,7 @@ repository = "https://github.com/crabnebula-dev/cef-rs"
 
 [workspace.dependencies]
 cef = { path = "cef", default-features = false }
-cef-dll-sys = { version = "151.1.0", path = "sys" }
+cef-dll-sys = { version = "151.8.1", path = "sys" }
 download-cef = { version = "2.3", path = "download-cef" }
 
 anyhow = "1"
