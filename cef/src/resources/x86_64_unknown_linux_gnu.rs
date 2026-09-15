@@ -1111,6 +1111,9 @@ pub const IDC_CONTENT_CONTEXT_SHARING_SHARED_CLIPBOARD_MULTIPLE_DEVICES: &CStr =
 /// `"IDC_CONTENT_CONTEXT_GENERATE_QR_CODE"`: Resource ID for use with [`cef_dll_sys::cef_id_for_command_id_name`].
 pub const IDC_CONTENT_CONTEXT_GENERATE_QR_CODE: &CStr = c"IDC_CONTENT_CONTEXT_GENERATE_QR_CODE";
 
+/// `"IDC_CONTENT_CONTEXT_SHARING_SUBMENU"`: Resource ID for use with [`cef_dll_sys::cef_id_for_command_id_name`].
+pub const IDC_CONTENT_CONTEXT_SHARING_SUBMENU: &CStr = c"IDC_CONTENT_CONTEXT_SHARING_SUBMENU";
+
 /// `"IDC_CONTENT_CONTEXT_SEND_TAB_TO_SELF_DEVICE1"`: Resource ID for use with [`cef_dll_sys::cef_id_for_command_id_name`].
 pub const IDC_CONTENT_CONTEXT_SEND_TAB_TO_SELF_DEVICE1: &CStr =
     c"IDC_CONTENT_CONTEXT_SEND_TAB_TO_SELF_DEVICE1";
